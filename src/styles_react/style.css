@@ -1,0 +1,259 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flippy-cardContainer {
+  width: 100%;
+}
+
+.flippy-cardContainer .flippy-back {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#edf1f7), color-stop(#e7f1f9), color-stop(#e1f2f9), color-stop(#ebf7fa), to(#c5dfdd));
+  background: linear-gradient(to bottom, #edf1f7, #e7f1f9, #e1f2f9, #ebf7fa, #c5dfdd);
+}
+
+.flippy-container {
+  padding: 10px 0;
+}
+
+.flippy-container .flippy-card {
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+}
+
+.flippy-container .flippy-card .img {
+  width: 80%;
+  border-radius: 10px;
+  position: relative;
+  left: -80px;
+  -webkit-box-shadow: -2px 0px 16px -4px rgba(0, 0, 0, 0.75);
+          box-shadow: -2px 0px 16px -4px rgba(0, 0, 0, 0.75);
+}
+
+.flippy-container .flippy-card .title-container {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.flippy-container .flippy-card .title-container p,
+.flippy-container .flippy-card .title-container h1 {
+  text-align: center;
+}
+
+.flippy-container .flippy-card .title-container .brake {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1070px) {
+  .flippy-container .flippy-card {
+    width: 90%;
+  }
+  .flippy-container .flippy-card .img {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  #root .search-title {
+    font-size: 44px;
+  }
+  #root .search-form {
+    width: 80%;
+  }
+  .title-container h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.details-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.details-section h3 {
+  color: white;
+  font-family: "Crete Round", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.details-section .details-cont li {
+  color: white;
+  font-family: "Crete Round", serif;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive:not(.istouchdevice) .flippy-back,
+.flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive.istouchdevice .flippy-back {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  position: unset;
+  margin-top: -250px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive:not(.istouchdevice) .flippy-back,
+  .flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive.istouchdevice .flippy-back {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    position: unset;
+    margin-top: -270px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive:not(.istouchdevice) .flippy-back,
+  .flippy-cardContainer-wrapper.vertical .flippy-cardContainer.isActive.istouchdevice .flippy-back {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    position: unset;
+    margin-top: -590px;
+  }
+}
+
+.search-form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.search-form .search-bar {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-form .search-button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.search-form .search-button:hover {
+  color: white;
+}
+
+.basic-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.basic-info p {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background: #363434;
+}
+
+.search-title {
+  text-align: center;
+  padding: 40px 0 0 0;
+  font-family: "Crete Round", serif;
+  font-size: 63px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #a9a9a9;
+}
+
+.error-cont .error-image img {
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.error-cont h2 {
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.bigCont {
+  margin-top: 150px;
+  border-radius: 10px;
+  background: rgba(153, 152, 152, 0.623);
+  -webkit-box-shadow: -1px 10px 24px -9px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 10px 24px -9px rgba(0, 0, 0, 0.75);
+}
+
+.bigCont .title-back {
+  margin: 0 auto;
+}
+
+.bigCont .title-back h1 {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: "Crete Round", serif;
+}
+
+.bigCont .servings p {
+  display: inline-block;
+  padding-left: 25px;
+  color: white;
+  font-size: 20px;
+  font-family: "Crete Round", serif;
+}
+
+.bigCont .dietLabel .dietLb {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 25px;
+  color: white;
+  font-family: "Crete Round", serif;
+  background: #363434;
+}
+
+.bigCont .ingredients {
+  width: 50%;
+  margin-left: 20px;
+  color: white;
+  font-family: "Crete Round", serif;
+}
+
+.bigCont .ingredients h3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Crete Round", serif;
+}
+
+@media only screen and (max-width: 640px) {
+  .bigCont .title-back h1 {
+    font-size: 45px;
+  }
+  .bigCont .ingredients {
+    width: 100%;
+    margin-left: 0;
+  }
+  .bigCont .basic-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

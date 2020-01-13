@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="author" content="G_Naydenov">
+  <meta name="description" content="All recipes website - see,prepare and cook your favorite dishes">
+  <meta name="keywords" content="cooking , cook,prepare,breakfast,lunch,dinner,recipe, all recipe, hungry">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>All Recipes</title>
+  <link rel='shortcut icon' type='image/x-icon' href="./images/icons8-meal-64.png">
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+  <!--custom SCSS/CSS file-->
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://kit.fontawesome.com/2717407892.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Crete+Round|Fascinate+Inline&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/progressively/dist/progressively.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressively/dist/progressively.min.css">
+
+</head>
+
+
+<body class="landing-page sidebar-collapse area" ss-container>
+  <header>
+    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100"
+      id="sectionsNav">
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand brand" href="#">
+            All Recipes </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse nav-right">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#root" class=" nav-link ">
+                Our recipes
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a href="#contact-us" class="nav-link">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-us" class="nav-link">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">
+                Special
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="page-header header-filter intro-bg" data-parallax="true">
+    <div>
+      <video autoplay muted loop id="myVideo">
+        <source src="./images/video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <h2 class="titleFirst">Sorted With Care</h2>
+  </div>
+
+  <!--React js section-->
+  <section class="main main-raised">
+
+    <div class="container-fluid" id="root"> </div>
+  </section>
+
+
+  <section class="main main-raised" id="siteInfo-gallery-section">
+    <div class="container-fluid">
+      <div class="row row-gallery">
+
+        <div class="col-lg-2 col-md-4 col-sm-12 a">
+          <div class="single-container-img">
+            <div class="img-row progressive">
+              <img class="progressive__img progressive--not-loaded" data-progressive="./images/waffle-4608843_640.jpg"
+                data-progressive-sm="./images/waffle-4608843_640.jpg" src="./images/waffle-4608843_640.jpg"
+                alt="waffle ice cream">
+            </div>
+            <div class="text-pic">
+              <p><span>320+</span></p>
+              <p>DESERTS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 a">
+          <div class="single-container-img">
+            <div class="img-row progressive">
+              <img class="progressive__img progressive--not-loaded" data-progressive="./images/spinach-791629_640.jpg"
+                data-progressive-sm="./images/spinach-791629_640.jpg" src="./images/spinach-791629_640.jpg"
+                alt="spinach salad">
+            </div>
+            <div class="text-pic">
+              <p><span>1000+</span></p>
+              <p>IDEAS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 a">
+          <div class="single-container-img">
+            <div class="img-row progressive">
+              <img class="progressive__img progressive--not-loaded" data-progressive="./images/spices-2548653_640.jpg"
+                data-progressive-sm="./images/spices-2548653_640.jpg" src="./images/spices-2548653_640.jpg"
+                alt="different spices ">
+            </div>
+            <div class="text-pic">
+              <p><span>100+</span></p>
+              <p>ORIGINAL RECIPES</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 a">
+          <div class="single-container-img">
+            <div class="img-row progressive">
+              <img class="progressive__img progressive--not-loaded" data-progressive="./images/burger-4631996_640.jpg"
+                data-progressive-sm="./images/burger-4631996_640.jpg" src="./images/burger-4631996_640.jpg"
+                alt="Burger with lettuce,tomato , meat and cheese ">
+            </div>
+            <div class="text-pic">
+              <p><span>550+</span></p>
+              <p>EVERYDAY DAY RECIPES</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 a">
+          <div class="single-container-img">
+            <div class="img-row progressive">
+              <img src="./images/strawberry-dessert-2191973_640.jpg" class="progressive__img progressive--not-loaded"
+                data-progressive="./images/strawberry-dessert-2191973_640.jpg"
+                data-progressive-sm="./images/strawberry-dessert-2191973_640.jpg"
+                alt="white yogurt with strawberry and blueberry on top">
+            </div>
+            <div class="text-pic">
+              <p><span>10</span></p>
+              <p>CHEFS PARTICIPATED</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="main main-raised " id="about-us">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-4 ab-title">
+          <h3>Us</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-9 col-sm-9 au-text">
+          <div>
+            <hr class="au-line">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni deleniti sed excepturi, necessitatibus
+              quaerat, quia omnis ut perferendis explicabo, inventore fugit dolor aut. Quibusdam dicta nobis neque,
+              possimus nisi facilis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, saepe. Eum quos
+              ab,
+              deserunt iure, corrupti obcaecati tempore cumque rerum accusantium inventore, perferendis minus ducimus
+              debitis aperiam impedit eaque veritatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores ducimus necessitatibus earum neque sunt velit quos beatae dicta repellat molestiae veniam ab,
+              saepe commodi accusamus nam blanditiis natus fugiat ex. </p>
+          </div>
+          <hr class="au-line">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="services-gallery">
+    <div class="container-fluid">
+      <div class="title-gallery-container">
+        <h2 class="title-gallery">More than an everyday obligation.</h2>
+      </div>
+      <div class="row  row-custom">
+        <div class="col-lg-4 col-mg-4 col-sm-12 ">
+          <div class="img-cont i-c-1 ">
+            <img  src="./images/soup-2006317_1920 (1).jpg" alt="pumpkin soup with sour cream">
+          </div>
+        </div>
+        <div class="col-lg-4 col-mg-4 col-sm-12 ">
+          <div class="img-cont i-c-2">
+
+            <img src="./images/steak-1081819_1920 (1) (1).jpg" alt="beef steak with rosemary">
+
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-mg-4 col-sm-12 ">
+          <div class="img-cont i-c-3">
+            <img src="./images/yogurt-1442034_1920 (1) (1).jpg"
+              alt="white yogurt desert with strawberry slices and sprinkled oats">
+
+          </div>
+        </div>
+      </div>
+      <div class="row row-text">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-custom-text">
+          <div class="text-container">
+            <h2>Made For Everyday Use</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore
+              molestiae voluptatem magni ea nisi ab
+              ipsum nemo, consequuntur neque excepturi cupiditate. Illo labore molestiae perferendis, voluptatum natus
+              molestias vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt consequuntur quo
+              officia error exercitationem animi architecto provident eos? Ducimus quasi aperiam placeat autem eum
+              cumque facilis facere corporis repellendus.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="main main-raised subscribe-section">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 subscribe-img">
+          <div class="outer-form">
+            <h3>Subscribe</h3>
+            <p>Sign up with your email address to receive news and updates</p>
+            <form class="form-group text-center inner-form">
+              <input type="text" placeholder="Email Address" class="form-control txt-input au-email-input" />
+              <p class="helper-text"></p>
+              <button type="submit" class="btn btn-outline-dark">SIGN UP</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="main main-raised" id="contact-us">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12 cu-left">
+          <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.4327883043366!2d23.37159451533142!3d42.63098417916956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85c962e7ed71%3A0x56df5e5ba68d362c!2z0J3QtdGCINCY0YIg0JXQntCe0JQ!5e0!3m2!1sbg!2sbg!4v1573047660167!5m2!1sbg!2sbg"
+            class="map" title="map of the office" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12 cu-right">
+          <h2>CONTACT US</h2>
+          <i class="fas fa-thumbtack"> <a target="_blank" rel="noopener"
+              href="https://www.google.com/maps?ll=42.630896,23.373762&z=17&t=m&hl=bg&gl=BG&mapclient=embed&cid=6259825754797585964">
+              Alexander Malinov Blvd. 91</a></i>
+          <i class="fas fa-envelope-open-text"> <a href="mailto:example@email.com?Subject=Hello%20again"
+              target="_top">example@email.com</a></i>
+          <i class="fas fa-phone-alt"> <a href="callto:+359 000 444 111">+359 000 444 111</a></i>
+          <form class="form-group about-us-form" action="">
+            <input type="text" name="Name" class="form-control au-text-input" placeholder="Name">
+            <span class="helper-text"></span>
+            <input type="email" name="Email" class="form-control au-email-input" placeholder="Email">
+            <span class="helper-text"></span>
+            <textarea name="message" class="form-control au-textarea" autocorrect="on" cols="10" rows="5"
+              maxlength="150" placeholder="Your message"></textarea>
+            <span class="helper-text"></span>
+            <p><span id="textarea-msg">150</span> Characters left</p>
+
+            <button class="btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="footer-text">
+            <h1>All Recipies</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed consequuntur possimus sint
+              magnam,
+              hic iusto numquam! Pariatur architecto animi voluptate. Possimus, officiis similique
+              obcaecati
+              est quia explicabo quidem consequatur corporis. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Sunt tempora qui doloribus, molestias reprehenderit quaerat reiciendis
+              voluptatum aliquam corporis fuga error, dolorem exercitationem. Omnis consequuntur nisi
+              earum
+              vel cupiditate maxime.</p>
+            <div>
+              <form class="form-group">
+
+                <input type="text" placeholder="Enter your email for subscription" name="subscribe"
+                  class="form-control au-email-input" id="email-footer">
+                <span class="helper-text"></span>
+                <button class="btn btn-outline-dark btn-footer">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+          <div class="row footer-chess-menu">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 cont">
+              <a href="#root"> <span>Our Recepes</span> </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 cont">
+              <a href="#about-us"><span>About</span> </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+
+            </div>
+            <!--second floor-->
+            <div class="col-lg-3 col-md-3 col-sm-3 rm">
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 cont">
+              <a href="#contact-us"><span>Contact</span> </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 cont">
+              <a href="#"><span>Special</span> </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
+          <div class="row footer-chess-menu">
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center mx-auto">
+              <ul>
+                <li><a href="#" aria-label="facebook"> <i class="fab fa-facebook-square sc"></i> </a> </li>
+                <li><a href="#" aria-label="instagram"> <i class="fab fa-instagram sc"></i> </a> </li>
+                <li><a href="#" aria-label="Pinterest"> <i class="fab fa-pinterest-square sc"></i> </a> </li>
+                <li> <a href="#" aria-label="Youtube"> <i class="fab fa-youtube sc"></i> </a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <small>Designed by G_Naydenov &copy; <span id="year"></span> </small>
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="./js.js"></script>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
