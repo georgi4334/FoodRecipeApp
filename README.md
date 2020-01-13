@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=======
+# FoodRecipeApp
+Website design for food recipes - build with React.js
+
+
+
 
 ## Available Scripts
 
@@ -66,8 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# FoodRecipeApp
-Website design for food recipes - build with React.js
->>>>>>> d8c2f62377f10fde4be7e66bfbd1fb371f2a3148
+
